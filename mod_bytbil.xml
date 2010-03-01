@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+    <name>Bytbil-Modul</name>
+    <author>Stefan Pålsson</author>
+    <copyright>Copyright (C) 2010 SoftPower. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>stefan@softpower.se</authorEmail>
+	<authorUrl>www.softpower.se</authorUrl>
+    <version>0.9.2</version>
+    <description>Modul för xml-koppling mot Bytbil.se (Kräver länk från bytbil.se)</description>
+    <files>
+        <filename>mod_bytbil.xml</filename>
+        <filename module="mod_bytbil">mod_bytbil.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+	<filename>tmpl/css/styles.css</filename>
+	<filename>tmpl/css/index.html</filename>
+	<filename>tmpl/js/jscript.js</filename>
+	<filename>tmpl/js/index.html</filename>
+    </files>
+    <params>
+        <param name="bytbil_link" type="text" size="50" default="" label="Länk till XML-Fil" description="Länk som du fått från Bytbil.se. Kopiera och klistra in hela länken" />
+    </params>
+</install>

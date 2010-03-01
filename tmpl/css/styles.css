@@ -1,0 +1,258 @@
+/**
+ * Bytbil Mod - Style Sheet
+ * 
+ * @copyright 	(C) Copyright 2010 SoftPower Technology AB
+ * @Module 		Bytbil Mod
+ * @license		GNU/GPL
+ * Any questions regarding this module shall be directed to:
+ * stefan@softpower.se.
+ * 
+ * This piece of software is released "as is" and comes with no waranties;
+ * use and modify it at your own discression. If you have any concern regarding the 
+ * quality of the code or its security; please let me know.
+ */
+
+img.outline:hover
+{
+    border: 2px solid #FFF;
+}
+
+.outline
+{
+    border: 2px solid #282828;
+}
+
+.outlinestatic
+{
+    border: 2px solid #282828;
+}
+h4, h3, h2, h1
+{
+    padding: 0px; margin:0px;
+    text-align: left;
+}
+
+#menulink
+{
+    text-decoration: none;
+    color: #e0e0e0;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin: 0; padding: 0;
+}
+
+#topfocus
+{
+    color: #f2f2f2;
+    display: inline;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-align: center;
+    padding: 3px 7px 3px 7px;
+    margin: 0px 0 0 0;
+    background-color: #444444;
+    border-top: 2px solid #282828;
+    border-right: 2px solid #282828;
+    border-left: 2px solid #282828;
+    position: relative;
+    top: -1px;
+}
+
+#topblurleft
+{
+    
+    display: inline;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-align: center;
+    padding: 1px 7px 1px 7px;
+    margin: 0px 0 0 0;
+    background-color: #3e3e3e;
+    border-top: 2px solid #333333;
+    border-left: 2px solid #333333;
+    position: relative;
+    top: -1px;
+}
+
+#topblurright
+{
+    display: inline;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-align: center;
+    padding: 1px 7px 1px 7px;
+    margin: 0 0 0 0;
+    background-color: #3e3e3e;
+    border-top: 2px solid #333333;
+    border-right: 2px solid #333333;
+    position: relative;
+    top: -1px;
+}
+
+#listwrap
+{
+    width: 500px;
+    height: 160px;
+    margin: 10px 0 10px 0;
+    background-color: #444444;
+    padding: 10px;
+    border: 2px solid #282828;
+}
+
+#pusher
+{
+    position: relative;
+    top: -23px;
+}
+
+#listimagewrap
+{
+    
+    width: auto;
+    height: 153px;
+    float: left;
+}
+
+#listtextwrap
+{
+    text-align: left;
+    width: 240px;
+    height: auto;
+    float: left;
+    padding: 0 0 0 15px;
+}
+
+#listimage
+{
+    border:2px solid #000;
+}
+
+#viewwrap
+{
+    width: 580px;
+    margin: 0 0 10px 0;
+    background-color: #444444;
+    padding: 10px 10px 20px 10px;
+    border: 2px solid #282828;
+    float: left;
+}
+
+#viewimagewrap
+{
+    margin-top: 15px;
+    width: 325px;
+    text-align:center;
+    float: right;
+}
+
+#viewimagesmaller
+{
+    padding: 10px 0 0 0;
+}
+
+#viewimageprimer
+{
+    border: 2px solid #282828;
+}
+
+#divider
+{
+    line-height:4px;
+    margin: 5px 0 5px 0;
+    height: 0px;
+    width: 200px;
+    border-bottom: 1px dashed #282828;
+}
+
+#dividerblank
+{
+    line-height:4px;
+    margin: 5px 0 5px 0;
+    height: 0px;
+    width: 200px;
+}
+
+
+#viewtextbox
+{
+    font-weight: bold;
+    display: inline;
+    font-size: 14px;
+    float: left;
+}
+
+#viewnodebox
+{
+    display: inline;
+    font-size: 14px;
+    text-align: right;
+    float: right;
+}
+
+#formtext
+{
+    display: inline;
+    font-size: 14px;
+}
+
+#viewtextwrap
+{
+    width: 200px;
+    float: left;
+    margin-top: 15px;
+}
+
+#viewinfobox
+{
+    margin-top: 0px;
+    width: 510px;
+    font-size: 14px;
+    text-align: left;
+    padding-top: 10px;
+    float: left;
+}
+
+#viewsubsmallimg
+{
+    display: inline;
+    margin: 6px 3px 6px 3px;
+}
+
+#viewsubsmallimgwrap
+{
+    cursor: pointer; opacity: 1;
+    text-align: center;
+    margin: 10px;
+}
+
+#viewsubtopimgwrap
+{
+    text-align: center;
+}
+
+#viewsubtopimg
+{
+    font-weight: normal;
+    width: 175px;
+    border: 2px solid #282828;
+}
+
+#formwrap
+{
+    width: 280px;
+    float: left;
+}
+
+#viewformbox
+{
+    font-size: 14px;
+}
+
+#formimg
+{
+    float: right;
+    width: 250px;
+    margin-right: 20px;
+    margin-top: 24px;
+    text-align: center;
+}
