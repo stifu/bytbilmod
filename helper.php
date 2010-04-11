@@ -26,6 +26,7 @@ class bytbilHelper
     //return the xml pointer if its otherwise print error message
     function initialize($params)
     {
+//fix this! nooot!
         $file = $params->get('bytbil_link');
             
         if (empty($file))
